@@ -1,3 +1,4 @@
+const DB_URL:any = process.env.DATABASE_URL;
 import { sql } from '@vercel/postgres';
 import {
   CustomerField,
